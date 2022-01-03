@@ -1,6 +1,15 @@
-# Python Practicals
+## BCA-603 : Python Programming (Practical) (1-25)
 
-BCA-603 : Python Programming (Practical) (1-25)
+## [Download zip🙂](https://github.com/xmi1an/python_practicals/archive/refs/heads/master.zip)
+
+### 🌟 How to run programs :
+
+1. Clone or [download](https://github.com/xmi1an/python_practicals/archive/refs/heads/master.zip) this repo to your computer.
+2. Unzip (If you download zip).
+3. Open "Python-Programs" folder.
+4. Run programs using cmd or any python IDE.
+
+---
 
 1. Write a Python program to display 'Hello World" Message on Screen.
 2. Write a Python program to swap two variables
@@ -19,7 +28,7 @@ BCA-603 : Python Programming (Practical) (1-25)
 15. Write Python programs Loading the module in Python code.
 16. Write a program to print following pattern
 
-    ```
+    ```python
     1
 
     1 2
@@ -29,7 +38,6 @@ BCA-603 : Python Programming (Practical) (1-25)
     1 2 3 4
 
     1 2 3 4 5
-
     ```
 
 17. Write Python programs to implement a concept of list.
@@ -44,3 +52,9 @@ BCA-603 : Python Programming (Practical) (1-25)
 24. Write a Python program for modified record, display record and delete record
     from the database.
 25. Write a Python program for search record from the database.
+
+---
+
+### Want to contribute with me :
+
+We are open for all so feel free to contribute with us 😃 Mail your Github ID to <https://t.me/xmi1an>
