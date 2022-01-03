@@ -1,7 +1,7 @@
 # 21. Write a Python program to read a file bca.txt and print the contents of file along with number of vowels present in it.
 
 # open file in read mode
-myfile = open("./bca.txt", "r")
+myfile = open("./practical_21part2.txt", "r")
 
 # read all the contents of file
 # and store in a string variable

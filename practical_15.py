@@ -1,4 +1,4 @@
 # 15. Write Python programs Loading the module in Python code.
-import practical_15_p2
+import practical_15part2
 
-practical_15_p2.greeting("Peter")
+practical_15part2.greeting("Peter")
