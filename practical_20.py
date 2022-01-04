@@ -1,30 +1,30 @@
 # 20.Write a Python program to using multiple inheritance.
-class A:
-    def __init__(self):
-        self.name = 'John'
-        self.age = 23
-
-    def getName(self):
-        return self.name
+"""
+Multiple Inheritance 
+When a class is derived from more than one base class it is called multiple Inheritance. The derived class inherits all the features of the base case.
+https://www.geeksforgeeks.org/multiple-inheritance-in-python/
+"""
 
 
-class B:
-    def __init__(self):
-        self.name = 'Richard'
-        self.id = '32'
-
-    def getName(self):
-        return self.name
+class Class1:
+    def msg1(self):
+        print("In Class1")
 
 
-class C(A, B):
-    def __init__(self):
-        A.__init__(self)
-        B.__init__(self)
-
-    def getName(self):
-        return self.name
+class Class2(Class1):
+    def msg2(self):
+        print("In Class2")
 
 
-C1 = C()
-print(C1.getName())
+class Class3(Class1):
+    def msg3(self):
+        print("In Class3")
+
+
+class Class4(Class2, Class3):
+    def msg(self):
+        print("In Class4")
+
+
+obj = Class4()
+obj.msg1()

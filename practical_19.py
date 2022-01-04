@@ -1,4 +1,8 @@
 # 19.Write a Python program to create nested list and display its elements.
+"""
+Nested List Comprehensions are nothing but a list comprehension within another list comprehension which is quite similar to nested for loops.
+https://www.geeksforgeeks.org/nested-list-comprehensions-in-python/
+"""
 
 mynumbers = [
     [2, 3, 4],

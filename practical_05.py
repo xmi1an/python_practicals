@@ -1,4 +1,5 @@
 # 5. Write a Python Program to print first prime number.
+
 numr = int(input("Enter range:"))
 
 print("Prime numbers:", end=' ')
