@@ -1,37 +1,127 @@
-## Welcome to GitHub Pages
+#### 1. Write a Python program to display 'Hello World" Message on Screen
 
-You can use the [editor on GitHub](https://github.com/xmi1an/python_practicals/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+print("Hello World")
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+#### 2. Write a Python program to swap two variables
+```python
+p = 5
+q = 10
 
-### Jekyll Themes
+temp = p  # Now temp value is = 5
+p = q   # Now temp value is p = 10
+q = temp  # Now temp value is q = 5
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xmi1an/python_practicals/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+print("The p value is : ", p)
+print("The q value is : ", q)
+```
 
-### Support or Contact
+#### 3. Write a Python program to display the Fibonacci series
+```python
+# Define a Function
+def fibonacci(n):
+    first_value = 0
+    second_value = 1
+    if(n == 1):
+        print(first_value)
+    else:
+        print(first_value)
+        print(second_value)
+        for i in range(2, n):
+            next = first_value + second_value
+            first_value = second_value
+            second_value = next
+            print(next)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+# Calling fib function
+fibonacci(10)
+```
+
+#### 4. Write a Python program to calculate sum of given number.
+```python
+num1 = int(input("Enter a First Number : "))
+num2 = int(input("Enter a Second Number : "))
+
+sum = num1 + num2
+
+print(sum)
+```
+
+#### 5. Write a Python Program to print first prime number.
+```python
+numr = int(input("Enter range:"))
+
+print("Prime numbers:", end=' ')
+for n in range(1, numr):
+    for i in range(2, n):
+        if(n % i == 0):
+            break
+    else:
+        print(n, end=' ')
+# 6. Write a Python Program to Check Armstrong Number.
+```python
+n = int(input("Enter a number: "))
+# initialize the sum
+s = 0
+t = n
+
+while t > 0:
+    digit = t % 10
+    s += digit ** 3
+    t //= 10
+
+# display the result
+if n == s:
+    print(n, "is an Armstrong number")
+else:
+    print(n, "is not an Armstrong number")
+```
+
+#### 7. Write a Python Program to Create a sequence of numbers using range datatype to display 1 to 30, with an increment of 2.
+```python
+"""
+range(start, stop, step)
+https://www.w3schools.com/python/ref_func_range.asp
+"""
+
+x = range(1, 30, 2)
+for n in x:
+    print(n)
+```
+
+#### 8. Write a Python Program to Find area of circle.
+```python
+PI = 3.14
+r = float(input("Enter the radius of a circle : "))
+area = PI * r * r
+print("Area of a circle = %.2f" % area)
+```
+#### 9. Write a Python program to implement Factorial series up to user entered number.
+```python
+num = int(input("Enter a number: "))
+factorial = 1
+
+for i in range(1, num + 1):
+    factorial = factorial * i
+
+print("The factorial of", num, "is", factorial)
+```
+
+#### 10. Write a Python program to check the given number is palindrome or not.
+```python
+n = int(input("Enter number:"))
+temp = n
+rev = 0
+
+while(n > 0):
+    dig = n % 10
+    rev = rev*10+dig
+    n = n//10
+
+if(temp == rev):
+    print("The number is a palindrome!")
+else:
+    print("The number isn't a palindrome!")
+```
