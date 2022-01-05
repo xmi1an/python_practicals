@@ -60,6 +60,7 @@ for n in range(1, numr):
             break
     else:
         print(n, end=' ')
+```
 # 6. Write a Python Program to Check Armstrong Number.
 ```python
 n = int(input("Enter a number: "))
