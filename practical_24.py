@@ -16,7 +16,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-sql = "UPDATE users SET city = 'Patan' WHERE city = 'Baroda'"
+sql = "UPDATE users SET city = 'Baroda' WHERE city = 'Idar'"
 
 mycursor.execute(sql)
 

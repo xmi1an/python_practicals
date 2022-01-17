@@ -5,6 +5,7 @@
 - The open() function returns a file object, which has a read() method for reading the content of the file:
 https://www.w3schools.com/python/python_file_open.asp
 """
+
 myfile = open("./practical_21part2.txt", "r")
 read_data = myfile.read()
 

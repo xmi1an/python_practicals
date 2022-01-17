@@ -10,12 +10,12 @@ python -m pip install mysql-connector-python
 """
 
 import mysql.connector
-
+print("")
 mydb = mysql.connector.connect(
     host='localhost', database='test', user='root', password='')
 
 mycursor = mydb.cursor()
-sql = "SELECT * FROM users WHERE city ='Idar'"
+sql = "SELECT * FROM users WHERE city ='Baroda'"
 
 mycursor.execute(sql)
 
