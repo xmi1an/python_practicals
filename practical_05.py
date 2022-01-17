@@ -1,13 +1,13 @@
 # 5. Write a Python Program to print first prime number.
 
+num = int(input("Enter range:"))
 
-for n in range(1, 20):
-    for i in range(2, n):
-        if n % i == 0:
-            print("Prime Number is :", n)
-            break
-    else:
-        pass
+for i in range(2, num):
+    if num % i == 0:
+        print(num, "Not a Prime")
+        break
+else:
+    print(num, "is a prime")
 
 # numr = int(input("Enter range:"))
 
