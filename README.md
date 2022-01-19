@@ -1,3 +1,5 @@
+## HNGU Python Practicals
+
 ## BCA-603 : Python Programming (Practical) (1-25)
 
 ## [Download zip🙂](https://github.com/xmi1an/python_practicals/archive/refs/heads/master.zip)
