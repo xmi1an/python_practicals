@@ -1,7 +1,7 @@
 # 10. Write a Python program to check the given number is palindrome or not.
 
-# n = int(input("Enter number:"))
-n = 275
+n = int(input("Enter number:"))
+
 temp = n
 rev = 0
 

@@ -2,16 +2,17 @@
 
 n = int(input("Enter a number: "))
 # initialize the sum
-s = 0
-t = n
+summ = 0
+temp = n
 
-while t > 0:
-    digit = t % 10
-    s += digit ** 3
-    t //= 10
+while temp > 0:
+    rem = temp % 10
+    cube = rem ** 3
+    summ += cube
+    temp //= 10
 
 # display the result
-if n == s:
+if n == summ:
     print(n, "is an Armstrong number")
 else:
     print(n, "is not an Armstrong number")

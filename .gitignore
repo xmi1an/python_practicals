@@ -108,7 +108,7 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
-
+.py.bak
 # Rope project settings
 .ropeproject
 
