@@ -56,7 +56,3 @@
 25. Write a Python program for search record from the database.
 
 ---
-
-### Want to contribute with me :
-
-We are open for all so feel free to contribute with us 😃 Mail your Github ID to <https://t.me/xmi1an>
