@@ -16,9 +16,10 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-sql = "UPDATE users SET city = 'Baroda' WHERE city = 'Idar'"
+updatesql = "UPDATE users SET city = 'Baroda' WHERE city = 'Idar'"
+deletesql = "DELETE * FROM users where city = 'idar'
 
-mycursor.execute(sql)
+mycursor.execute(updatesql)
 
 mydb.commit()
 
