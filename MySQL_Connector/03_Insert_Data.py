@@ -7,7 +7,7 @@ if conn.is_connected():
 
 crsr = conn.cursor()
 
-sql = "insert into users (name, city, country) values('Vision', 'Idar', 'India') "
+sql = "insert into users (name, city, country) values('Vision', 'Idar', 'India'),('Naruto', 'Hidden Leaf Village', 'Konoha')"
 crsr.execute(sql)
 conn.commit()
 print(crsr.rowcount, "record inserted.")

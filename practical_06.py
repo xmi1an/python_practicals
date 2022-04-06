@@ -11,7 +11,7 @@ while temp > 0:
     summ += cube
     temp //= 10
 
-# display the result
+# Display the result
 if n == summ:
     print(n, "is an Armstrong number")
 else:
