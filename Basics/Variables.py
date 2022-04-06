@@ -8,4 +8,6 @@ def myfunc():
 
 
 myfunc()
+
+print(gv)
 print(lv)  # Get an error 'lv' is not defined
