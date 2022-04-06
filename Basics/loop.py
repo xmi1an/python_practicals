@@ -14,11 +14,10 @@ while True:
         break
 
 # Nested Loop
-i = 1
-while i <= 4:
-    j = 0
-    while j <= 3:
-        print(i*j, end=" ")
-        j += 1
-    print()
-    i += 1
+rows = 5
+# outer loop
+for i in range(1, rows + 1):
+    # inner loop
+    for j in range(1, i + 1):
+        print("*", end=" ")
+    print('')
