@@ -28,3 +28,5 @@ mycursor.execute(updatesql)
 mydb.commit()
 
 print(mycursor.rowcount, "record(s) affected")
+
+mydb.close()
