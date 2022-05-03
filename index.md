@@ -150,8 +150,8 @@ else:
     print("The number isn't a palindrome!")
 ```
 ## Practical 11
+11. Write a python program to display ascending and descending order from given 10 numbers.
 ```python
-# 11. Write a python program to display ascending and descending order from given 10 numbers.
 """
 - The sort() method sorts the list ascending by default.
 - reverse Optional. reverse=True will sort the list descending. Default is reverse=False
@@ -169,9 +169,8 @@ numbers.sort(reverse=True)
 print(numbers)
 ```
 ## Practical 12
+12.Write a Python program to print the duplicate elements of an myarrayay.
 ```python
-# 12.Write a Python program to print the duplicate elements of an myarrayay.
-
 myarray = [1, 9, 3, 4, 2, 7, 8, 8, 9, 3]
 
 print("Duplicate elements in given myarrayay : ")
@@ -182,8 +181,8 @@ for i in range(0, len(myarray)):
             print(myarray[j])
 ```
 ## Practical 13
+13.Write Python programs to create functions and use functions in the program.
 ```python
-# 13.Write Python programs to create functions and use functions in the program.
 """
 - A function can be defined as the organized block of reusable code, which can be called whenever required.
 - Python provides the def keyword to define the function. 
@@ -206,8 +205,8 @@ msg()
 sum(5, 2)
 ```
 ## Practical 14
+ 14. Write Python programs to using lambda function.
 ```python
-# 14. Write Python programs to using lambda function.
 """
 Python Lambda function is known as the anonymous function that is defined without a name. Python allows us to not declare the function in the standard manner, i.e., by using the def keyword. Rather, the anonymous functions are declared by using the lambda keyword. However, Lambda functions can accept any number of arguments, but they can return only one value in the form of expression.
 https://www.javatpoint.com/python-lambda-functions
@@ -221,8 +220,8 @@ print(x)
 print("sum = ",x(20))   
 ```
 ## Practical 15
+15. Write Python programs Loading the module in Python code.
 ```python
-# 15. Write Python programs Loading the module in Python code.
 """
 A python module can be defined as a python program file which contains a python code including python functions, class, or variables. In other words, we can say that our python code file saved with the extension (.py) is treated as the module. We may have a runnable code inside the python module.
 https://www.javatpoint.com/python-modules
@@ -237,8 +236,8 @@ practical_15part2.greeting("Peter")
 ```
 
 ## Practical 15 Part 2
+15.2 Write Python programs Loading the module in Python code.
 ```python
-# 15. Write Python programs Loading the module in Python code.
 # Part 2 of Practical 15.
 # Saved as practical_15part2.py
 
@@ -248,8 +247,8 @@ def greeting(name):
 # end of part 2.
 ```
 ## Practical 16
+16.Write a program to print following pattern
 ```python
-# 16.Write a program to print following pattern
 # 1
 # 1 2
 # 1 2 3
@@ -264,8 +263,8 @@ for i in range(1, n+1):
     print()
 ```
 ## Practical 17
+17. Write Python programs to implement a concept of list.
 ```python
-# 17. Write Python programs to implement a concept of list.
 """
 A list in Python is used to store the sequence of various types of data. Python lists are mutable type its mean we can modify its element after it created. However, Python consists of six data-types that are capable to store the sequences, but the most common and reliable type is the list.
 A list can be defined as a collection of values or items of different types. The items in the list are separated with the comma (,) and enclosed with the square brackets [].
@@ -289,8 +288,8 @@ avengers[2] = "Vision"
 print(avengers)
 ```
 ## Practical 18
+18. Write Python programs to implement a concept of tuples.
 ```python
-# 18. Write Python programs to implement a concept of tuples.
 """
 Python Tuple is used to store the sequence of immutable Python objects. The tuple is similar to lists since the value of the items stored in the list can be changed, whereas the tuple is immutable, and the value of the items stored in the tuple cannot be changed.
 https://www.javatpoint.com/python-tuples
@@ -301,8 +300,8 @@ print(avengers)
 print(type(avengers))
 ```
 ## Practical 19
+19.Write a Python program to create nested list and display its elements.
 ```python
-# 19.Write a Python program to create nested list and display its elements.
 """
 Nested List Comprehensions are nothing but a list comprehension within another list comprehension which is quite similar to nested for loops.
 https://www.geeksforgeeks.org/nested-list-comprehensions-in-python/
@@ -319,8 +318,8 @@ for list in mynumbers:
         print(number, end=' ')
 ```
 ## Practical 20
+20.Write a Python program to using multiple inheritance.
 ```python
-# 20.Write a Python program to using multiple inheritance.
 """
 Multiple Inheritance 
 When a class is derived from more than one base class it is called multiple Inheritance. The derived class inherits all the features of the base case.
@@ -352,8 +351,8 @@ obj = Class4()
 obj.msg1()
 ```
 ## Practical 21
+21. Write a Python program to read a file bca.txt and print the contents of file along with number of vowels present in it.
 ```python
-# 21. Write a Python program to read a file bca.txt and print the contents of file along with number of vowels present in it.
 """
 - The open() function takes two parameters; filename, and mode.
 - To open the file, use the built-in open() function.
@@ -383,8 +382,8 @@ practical_21part2.txt
 Lorem ipsum dolor sit amet.
 ```
 ## Practical 22
+22.Write a Python program for Error Handling.
 ```python
-# 22.Write a Python program for Error Handling.
 """
 - The try block lets you test a block of code for errors.
 - The except block lets you handle the error.
@@ -402,8 +401,8 @@ finally:
     print("Rest of the code..")
 ```
 ## Practical 23
+23. Write a Python program for connection with my Sql and display all record from the database.
 ```python
-# 23. Write a Python program for connection with my Sql and display all record from the database.
 """
 - We need "MySQL Connector" module to access MySQL databases.
 - To install "MySQL Connector" Open cmd and type following :
@@ -428,8 +427,8 @@ for x in myresult:
     print(x)
 ```
 ## Practical 24
+24. Write a Python program for modified record, display record and delete record from the database.
 ```python
-# 24. Write a Python program for modified record, display record and delete record from the database.
 """
 - We need "MySQL Connector" module to access MySQL databases.
 - To install "MySQL Connector" Open cmd and type following :
@@ -460,8 +459,8 @@ mydb.commit()
 print(mycursor.rowcount, "record(s) affected")
 ```
 ## Practical 25
+25. Write a Python program for search record from the database.
 ```python
-# 25. Write a Python program for search record from the database.
 """
 - We need "MySQL Connector" module to access MySQL databases.
 - To install "MySQL Connector" Open cmd and type following :
