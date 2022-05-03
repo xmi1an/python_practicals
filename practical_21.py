@@ -9,8 +9,8 @@ https://www.w3schools.com/python/python_file_open.asp
 myfile = open("./practical_21part2.txt", "r")
 read_data = myfile.read()
 
-
 # find the number of the vowels in file
+
 vowel_count = 0
 for i in read_data:
     if(i == 'A' or i == 'a' or i == 'E' or i == 'e' or i == 'I'

@@ -8,14 +8,18 @@ python -m pip install mysql-connector-python
 
 -https://www.w3schools.com/python/python_mysql_getstarted.asp
 """
-
 import mysql.connector
-print("")
 mydb = mysql.connector.connect(
-    host='localhost', database='test', user='root', password='')
+    host='localhost',
+    database='test',
+    user='root',
+    password=''
+)
 
 mycursor = mydb.cursor()
-sql = "SELECT * FROM users WHERE city ='Baroda'"
+search = input("Search : ")
+
+sql = "SELECT * FROM users WHERE name='%s' " % search
 
 mycursor.execute(sql)
 

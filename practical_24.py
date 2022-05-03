@@ -12,12 +12,16 @@ python -m pip install mysql-connector-python
 import mysql.connector
 
 mydb = mysql.connector.connect(
-    host='localhost', database='test', user='root', password='')
+    host='localhost',
+    database='test',
+    user='root',
+    password=''
+)
 
 mycursor = mydb.cursor()
 
 updatesql = "UPDATE users SET city = 'Baroda' WHERE city = 'Idar'"
-deletesql = "DELETE * FROM users where city = 'idar'
+deletesql = "DELETE * FROM users where city = 'idar'"
 
 mycursor.execute(updatesql)
 
