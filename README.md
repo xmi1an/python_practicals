@@ -14,7 +14,7 @@
 ---
 
 1. Write a Python program to display 'Hello World" Message on Screen.
-2. Write a Python program to swap two variables
+2. Write a Python program to swap two variables.
 3. Write a Python program to display the Fibonacci series.
 4. Write a Python program to calculate sum of given number.
 5. Write a Python Program to print first prime number.
