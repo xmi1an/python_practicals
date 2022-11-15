@@ -24,7 +24,7 @@
 9. Write a Python program to implement Factorial series up to user entered number.
 10. Write a Python program to check the given number is palindrome or not.
 11. Write a python program to display ascending and descending order from given 10 numbers.
-12. Write a Python program to print the duplicate elements of an array
+12. Write a Python program to print the duplicate elements of an array.
 13. Write Python programs to create functions and use functions in the program.
 14. Write Python programs to using lambda function.
 15. Write Python programs Loading the module in Python code.
